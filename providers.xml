@@ -813,19 +813,18 @@
 	-->	
 
 
-	<!-- haven't checked any ESRI maps at all!-->
 	<!-- ESRI maps World-->
 	<provider id="10301" type="0" visible="true" background="-1">
 		<name>ESRI World</name>
 		<mode>Street</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>
@@ -833,13 +832,13 @@
 		<name>ESRI World</name>
 		<mode>Satellite</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>photo</usage>
 	</provider>
@@ -847,13 +846,13 @@
 		<name>ESRI World</name>
 		<mode>Satelite+Places</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>photo</usage>
 	</provider>
@@ -861,13 +860,13 @@
 		<name>ESRI World</name>
 		<mode>Hybrid</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Transportation/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>photo</usage>
 	</provider>
@@ -875,13 +874,13 @@
 		<name>ESRI World</name>
 		<mode>NatGeo</mode>
 		<countries>World, USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>24</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>road,city</usage>
 	</provider>
@@ -889,13 +888,13 @@
 		<name>ESRI World</name>
 		<mode>Topo</mode>
 		<countries>World, USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>hiking</usage>
 	</provider>
@@ -903,52 +902,52 @@
 		<name>ESRI World</name>
 		<mode>Terrain</mode>
 		<countries>World, USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10308" type="0" visible="true" background="-1">
 		<name>ESRI World</name>
 		<mode>Relief</mode>
 		<countries>World, USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10309" type="0" visible="true" background="-1">
 		<name>ESRI World</name>
 		<mode>Physical</mode>
 		<countries>World, USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>16</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10310" type="0" visible="true" background="-1">
 		<name>ESRI World</name>
 		<mode>Ocean</mode>
 		<countries>World, USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>nautical</usage>
 	</provider>
@@ -957,39 +956,39 @@
 		<name>ESRI special</name>
 		<mode>World Reference Overlay</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Reference_Overlay/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>20</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10402" type="0" visible="false" background="-1">
 		<name>ESRI special</name>
 		<mode>World Boundaries and Places</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>20</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10403" type="0" visible="true" background="10404">
 		<name>ESRI special</name>
 		<mode>Light Grey Map</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>24</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>overlay</usage>
 	</provider>
@@ -997,26 +996,26 @@
 		<name>ESRI special</name>
 		<mode>Light Grey Base</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>24</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10405" type="0" visible="true" background="-1">
 		<name>ESRI special</name>
 		<mode>Navigation Charts</mode>
 		<countries>World</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Specialty/World_Navigation_Charts/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Specialty/World_Navigation_Charts/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>18</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>aero</usage>
 	</provider>
@@ -1024,26 +1023,26 @@
 		<name>ESRI special</name>
 		<mode>Soil Survey</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Specialty/Soil_Survey_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Specialty/Soil_Survey_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>24</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10407" type="0" visible="true" background="-1">
 		<name>ESRI special</name>
 		<mode>DeLorme Base</mode>
 		<countries>World, USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>19</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 		<usage>road</usage>
 	</provider>
@@ -1051,13 +1050,13 @@
 		<name>ESRI special</name>
 		<mode>Places</mode>
 		<countries>World, USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>27</zoomMax>
 		<tileSize>256</tileSize>
-		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<attribution><![CDATA[© ESRI <a href="https://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<!-- ESRI maps Demographics in USA -->
@@ -1065,546 +1064,546 @@
 		<name>ESRI USA Demographics</name>
 		<mode>Population Change 1990 - 2000</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_1990-2000_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10601" type="0" visible="true" background="10501">
 		<name>ESRI USA Demographics</name>
 		<mode>Population Change 1990 - 2000</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10502" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Average Household Size</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Average_Household_Size/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Average_Household_Size/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10602" type="0" visible="true" background="10502">
 		<name>ESRI USA Demographics</name>
 		<mode>Average Household Size</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10503" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Daytime Population</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Daytime_Population/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Daytime_Population/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10603" type="0" visible="true" background="10503">
 		<name>ESRI USA Demographics</name>
 		<mode>Daytime Population</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10504" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Diversity Index</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Diversity_Index/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Diversity_Index/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10604" type="0" visible="true" background="10504">
 		<name>ESRI USA Demographics</name>
 		<mode>Diversity Index</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10505" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Labour Force Participation Rate</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Labor_Force_Participation_Rate/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Labor_Force_Participation_Rate/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10605" type="0" visible="true" background="10505">
 		<name>ESRI USA Demographics</name>
 		<mode>Labour Force Participation Rate</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10506" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Median Age</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Age/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Age/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10606" type="0" visible="true" background="10506">
 		<name>ESRI USA Demographics</name>
 		<mode>Median Age</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10507" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Median Home Value</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Home_Value/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Home_Value/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10607" type="0" visible="true" background="10507">
 		<name>ESRI USA Demographics</name>
 		<mode>Median Home Value</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10508" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Median Household Income</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Household_Income/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Household_Income/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10608" type="0" visible="true" background="10508">
 		<name>ESRI USA Demographics</name>
 		<mode>Median Household Income</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10509" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Median Net Worth</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Net_Worth/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Median_Net_Worth/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10609" type="0" visible="true" background="10509">
 		<name>ESRI USA Demographics</name>
 		<mode>Median Net Worth</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10510" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Owner Occupied Housing</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Owner_Occupied_Housing/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Owner_Occupied_Housing/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10610" type="0" visible="true" background="10510">
 		<name>ESRI USA Demographics</name>
 		<mode>Owner Occupied Housing</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10511" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Percent Male</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Male/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Male/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10611" type="0" visible="true" background="10511">
 		<name>ESRI USA Demographics</name>
 		<mode>Percent Male</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10512" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Percent Over 64</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Over_64/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Over_64/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10612" type="0" visible="true" background="10512">
 		<name>ESRI USA Demographics</name>
 		<mode>Percent Over 64</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10513" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Percent Under 18</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Under_18/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Percent_Under_18/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10613" type="0" visible="true" background="10513">
 		<name>ESRI USA Demographics</name>
 		<mode>Percent Under 18</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10514" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Population by Sex</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Population_by_Sex/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Population_by_Sex/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10614" type="0" visible="true" background="10514">
 		<name>ESRI USA Demographics</name>
 		<mode>Population by Sex</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10515" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Population Density</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Population_Density/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Population_Density/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10615" type="0" visible="true" background="10515">
 		<name>ESRI USA Demographics</name>
 		<mode>Population Density</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10516" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Projected Population Change</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Projected_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Projected_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10616" type="0" visible="true" background="10516">
 		<name>ESRI USA Demographics</name>
 		<mode>Projected Population Change</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10517" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Recent Population Change</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Recent_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Recent_Population_Change/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10617" type="0" visible="true" background="10517">
 		<name>ESRI USA Demographics</name>
 		<mode>Recent Population Change</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10518" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Retail Spending Potential</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Retail_Spending_Potential/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Retail_Spending_Potential/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10618" type="0" visible="true" background="10518">
 		<name>ESRI USA Demographics</name>
 		<mode>Retail Spending Potential</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10519" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Social Vulnerability Index</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Social_Vulnerability_Index/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Social_Vulnerability_Index/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10619" type="0" visible="true" background="10519">
 		<name>ESRI USA Demographics</name>
 		<mode>Social Vulnerability Index</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10520" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Tapestry</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Tapestry/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Tapestry/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10620" type="0" visible="true" background="10520">
 		<name>ESRI USA Demographics</name>
 		<mode>Tapestry</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10521" type="0" visible="false" background="-1">
 		<name>ESRI USA Demographics</name>
 		<mode>Unemployment Rate</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Unemployment_Rate/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Unemployment_Rate/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 	<provider id="10621" type="0" visible="true" background="10521">
 		<name>ESRI USA Demographics</name>
 		<mode>Unemployment Rate</mode>
 		<countries>USA</countries>
-		<url><![CDATA[http://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
+		<url><![CDATA[https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}.png]]></url>
 		<zoomPart>{z}-8</zoomPart>
 		<zoomMin>10</zoomMin>
 		<zoomMax>21</zoomMax>
 		<tileSize>256</tileSize>
 		<attribution><![CDATA[© ESRI <a href="http://www.esri.com/legal/licensing/termsofuse.html">(ESRI Terms of Use)</a>]]></attribution>
-		<extraHeader><![CDATA[Referer#http://arcgisonline.com/home/]]></extraHeader>
+		<extraHeader><![CDATA[Referer#https://arcgisonline.com/home/]]></extraHeader>
 		<extraHeader><![CDATA[User-Agent#Mozilla/5.0 (Windows NT 6.1; WOW64; rv:7.0.1) Gecko/20100101 Firefox/7.0.1]]></extraHeader>
 	</provider>
 
